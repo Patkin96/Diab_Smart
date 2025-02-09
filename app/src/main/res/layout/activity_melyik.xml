@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:background="@drawable/funny"
+    android:orientation="vertical"
+    tools:context=".melyik">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contentDescription="@string/todo"  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/hatterfeher"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/todo"  />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:weightSum="2.8" >
+            <ImageView
+                android:id="@+id/csillag"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/egycsillag"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/allat"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/leopard"
+                android:contentDescription="@string/todo"  />
+            <ImageView
+                android:id="@+id/gluten"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/gluten"
+                android:contentDescription="@string/todo"  />
+
+            <ImageView
+                android:id="@+id/laktoz"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/laktoz"
+                android:contentDescription="@string/todo"  />
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="1" >
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/melyik1"
+            android:layout_weight="1"
+
+            android:contentDescription="@string/todo"  />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/im12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/todo"  />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="6" >
+
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:onClick="kacsa1"
+                android:background="@drawable/kacsa1"
+                android:contentDescription="@string/todo"  />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:onClick="kacsa2"
+                android:background="@drawable/kacsa2"
+                android:contentDescription="@string/todo"  />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/im13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/todo"  />
+
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/melyik2"
+            android:contentDescription="@string/todo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:weightSum="2.8" >
+            <ImageView
+                android:id="@+id/csillag2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/egycsillag"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/allat2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/leopard"
+                android:contentDescription="@string/todo"  />
+            <ImageView
+                android:id="@+id/gluten2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/gluten"
+                android:contentDescription="@string/todo"  />
+
+            <ImageView
+                android:id="@+id/laktoz2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/laktoz"
+                android:contentDescription="@string/todo"  />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/im167"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:contentDescription="@string/todo"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/todo"
+            android:background="@drawable/blackback"
+            android:onClick="back" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:contentDescription="@string/todo"  />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

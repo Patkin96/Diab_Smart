@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diabeszes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="DiabESZES"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".melyikinfo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".melyikfo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".igazhamisfo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".profil2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".profil"
+            android:screenOrientation="landscape" />
+        <activity android:name=".talca"
+            android:screenOrientation="landscape" />
+        <activity android:name=".szerkeszto" />
+        <activity
+            android:name=".melyik"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".igazhamis"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Diabeszes</string>
+    <string name="igaz">Igaz</string>
+    <string name="hamis">Hamis</string>
+    <string name="text" />
+    <string name="todo">TODO</string>
+
+
+</resources>

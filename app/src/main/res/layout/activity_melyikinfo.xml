@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hatterfeher"
+    android:weightSum="8"
+    android:orientation="vertical"
+    tools:context=".melyikfo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ciminfo"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contentDescription="@string/todo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/infoegy"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="0dp"
+            android:background="@drawable/infoketto"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView537"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView532"
+            android:layout_width="0dp"
+            android:background="@drawable/infoharrom"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView5372"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView510"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/infocsigga"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView520"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView530"
+            android:layout_width="0dp"
+            android:background="@drawable/infomokus"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView5370"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView5320"
+            android:layout_width="0dp"
+            android:background="@drawable/infoleopard"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView53720"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView200"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <ImageView
+            android:id="@+id/imageView500"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView5100"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/infogluten"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView5200"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView5300"
+            android:layout_width="0dp"
+            android:background="@drawable/infoglutenmentes"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView53700"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView53200"
+            android:layout_width="0dp"
+            android:background="@drawable/infolaktoz"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView537200"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:contentDescription="@string/todo"  />
+        <ImageView
+            android:id="@+id/imageView532000"
+            android:layout_width="0dp"
+            android:background="@drawable/infolaktoznem"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"  />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/todo"
+            android:background="@drawable/blackback"
+            android:onClick="back" />
+
+        <ImageView
+            android:id="@+id/imageView521010100"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:contentDescription="@string/todo"  />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

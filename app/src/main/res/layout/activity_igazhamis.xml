@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hatterfelho"
+    android:weightSum="6"
+    android:orientation="vertical"
+    tools:context=".igazhamis">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:fontFamily="serif-monospace"
+        android:freezesText="false"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/text"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#FDFDFF"
+        android:textColorLink="#000000"
+        android:textIsSelectable="false"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:contentDescription="@string/todo"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.3"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:contentDescription="@string/todo"/>
+
+
+        <ImageButton
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:contentDescription="@string/todo"
+            android:background="@drawable/zoldlufiigaz"
+            android:onClick="igaz" />
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"/>
+        <ImageButton
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:contentDescription="@string/todo"
+            android:background="@drawable/piroslufihamis"
+            android:onClick="hamis" />
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:contentDescription="@string/todo"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/todo"
+            android:background="@drawable/blackback"
+            android:onClick="back" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:contentDescription="@string/todo"  />
+
+    </LinearLayout>
+
+
+</LinearLayout>

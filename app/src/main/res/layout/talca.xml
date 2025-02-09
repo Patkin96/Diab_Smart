@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/p_mainConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".talca">
+
+    <ImageView
+        android:id="@+id/p_imageView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_game3_ebed"
+        app:layout_constraintBottom_toTopOf="@+id/p_recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/p_imageView16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/p_recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p_textView"
+        app:srcCompat="@drawable/spr_game3_tray_0" />
+
+    <HorizontalScrollView
+        android:id="@+id/p_scrollViewM"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:paddingLeft="48dp"
+        android:paddingTop="6dp"
+        android:paddingRight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/p_recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/p_linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp" />
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/p_button"
+        android:background="@drawable/blackback"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/wellfleet"
+        android:text="Hello World!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/p_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="96dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="25"
+        android:progressTint="#009688"
+        android:secondaryProgress="30"
+        android:secondaryProgressTint="#FF5722"
+        android:secondaryProgressTintMode="src_over"
+        android:progressBackgroundTint="@android:color/holo_red_dark"
+        android:backgroundTintMode="src_over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p_textView" />
+
+    <Button
+        android:id="@+id/p_imageButtonF"
+        android:layout_width="56dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="@+id/p_scrollViewM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p_progressBar"
+        android:background="@drawable/spr_arrow_1" />
+
+    <Button
+        android:id="@+id/p_imageButtonB"
+        android:layout_width="56dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/p_scrollViewM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p_progressBar"
+        android:background="@drawable/spr_arrow_1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/p_recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:background="#322E2E"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
