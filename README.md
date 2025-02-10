@@ -58,7 +58,7 @@ To work with the code, you need to have Android Studio installed. The applicatio
 2. **Clone the repository:**
    - Clone the project to your local machine by running the following command in your terminal or command prompt:
      ```bash
-     git clone https://github.com/yourusername/DiabEszes.git
+     git clone https://github.com/Patkin96/Diab_Smart
      ```
 
 3. **Open the project in Android Studio:**
